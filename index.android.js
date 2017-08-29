@@ -13,8 +13,13 @@ import {
     View
 } from 'react-native';
 /**导入一个自己写的js文件*/
-import reactNativeTest from './app/Splash';
+// import Splash from './app/Splash';
+// import Welcome from './app/page/Welcome';
+import Login from './app/page/Login.js';
+
 
 
 // 注册应用(registerComponent)后才能正确渲染，并将第一个加载界面指向Splash.js
-AppRegistry.registerComponent('reactNativeTest', () => reactNativeTest);
+// AppRegistry.registerComponent('reactNativeTest', () => Splash);
+// AppRegistry.registerComponent('reactNativeTest', () => Welcome);
+AppRegistry.registerComponent('reactNativeTest', () => Login);
